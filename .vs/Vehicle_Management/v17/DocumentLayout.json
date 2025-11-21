@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,11 +78,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\DTOs\\LoginRequest.cs",
               "RelativeDocumentMoniker": "DTOs\\LoginRequest.cs",
@@ -118,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserProfileController.cs",
               "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Controllers\\UserProfileController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserProfileController.cs",
@@ -167,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -179,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "JwtMiddleware.cs",
               "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Middleware\\JwtMiddleware.cs",
               "RelativeDocumentMoniker": "Middleware\\JwtMiddleware.cs",
@@ -191,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LoginResponse.cs",
               "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\DTOs\\LoginResponse.cs",
               "RelativeDocumentMoniker": "DTOs\\LoginResponse.cs",
@@ -203,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -215,15 +215,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAkwG8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAmwIQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T20:14:53.319Z"
+              "WhenOpened": "2025-11-20T20:14:53.319Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
