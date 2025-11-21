@@ -15,12 +15,10 @@ namespace VehicleManagementAPI.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Configure table names (optional - PostgreSQL uses snake_case by convention)
             modelBuilder.Entity<Role>().ToTable("roles");
             modelBuilder.Entity<User>().ToTable("users");
             modelBuilder.Entity<Vehicle>().ToTable("vehicles");
 
-            // Configure primary keys
             modelBuilder.Entity<Role>()
                 .HasKey(r => r.RoleId);
 
@@ -30,11 +28,10 @@ namespace VehicleManagementAPI.Data
             modelBuilder.Entity<Vehicle>()
                 .HasKey(v => v.Id);
 
-            // Configure auto-increment for PostgreSQL
             modelBuilder.Entity<Role>()
                 .Property(r => r.RoleId)
                 .ValueGeneratedOnAdd()
-                .UseIdentityAlwaysColumn(); // Use this for PostgreSQL serial/identity
+                .UseIdentityAlwaysColumn();
 
             modelBuilder.Entity<User>()
                 .Property(u => u.UserId)
@@ -46,7 +43,6 @@ namespace VehicleManagementAPI.Data
                 .ValueGeneratedOnAdd()
                 .UseIdentityAlwaysColumn();
 
-            // Configure string lengths and constraints
             modelBuilder.Entity<Role>()
                 .Property(r => r.RoleName)
                 .HasMaxLength(50)
@@ -90,18 +86,11 @@ namespace VehicleManagementAPI.Data
                 .HasMaxLength(100)
                 .IsRequired();
 
-            // Configure enums to store as strings in PostgreSQL
-            modelBuilder.Entity<Vehicle>()
-                .Property(v => v.ChargingStatus)
-                .HasConversion<string>()
-                .HasMaxLength(20);
-
             modelBuilder.Entity<Vehicle>()
                 .Property(v => v.AssignStatus)
                 .HasConversion<string>()
                 .HasMaxLength(20);
 
-            // Configure indexes
             modelBuilder.Entity<User>()
                 .HasIndex(u => u.Email)
                 .IsUnique();
@@ -114,28 +103,12 @@ namespace VehicleManagementAPI.Data
                 .HasIndex(r => r.RoleName)
                 .IsUnique();
 
-            // Seed roles
             modelBuilder.Entity<Role>().HasData(
                 new Role { RoleId = 1, RoleName = "admin" },
                 new Role { RoleId = 2, RoleName = "user" }
             );
 
-            // Seed admin user (password: admin123)
-            modelBuilder.Entity<User>().HasData(
-                new User
-                {
-                    UserId = 1,
-                    FirstName = "Admin",
-                    LastName = "User",
-                    Email = "admin@vehicle.com",
-                    PhoneNumber = "1234567890",
-                    Address = "Admin Address",
-                    PasswordHash = BCrypt.Net.BCrypt.HashPassword("admin123"),
-                    RoleId = 1
-                }
-            );
 
-            // Configure relationships
             modelBuilder.Entity<User>()
                 .HasOne(u => u.Role)
                 .WithMany(r => r.Users)

@@ -1,6 +1,6 @@
-﻿using Microsoft.IdentityModel.Tokens;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
 using System.Text;
 using VehicleManagementAPI.Data;
 
@@ -34,7 +34,7 @@ namespace VehicleManagementAPI.Middleware
                 var tokenHandler = new JwtSecurityTokenHandler();
                 var key = Encoding.ASCII.GetBytes(_configuration["Jwt:Secret"]!);
 
-                tokenHandler.ValidateToken(token, new TokenValidationParameters
+                var tokenValidationResult = await tokenHandler.ValidateTokenAsync(token, new TokenValidationParameters
                 {
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = new SymmetricSecurityKey(key),
@@ -43,23 +43,29 @@ namespace VehicleManagementAPI.Middleware
                     ValidIssuer = _configuration["Jwt:Issuer"],
                     ValidAudience = _configuration["Jwt:Audience"],
                     ClockSkew = TimeSpan.Zero
-                }, out SecurityToken validatedToken);
+                });
 
-                var jwtToken = (JwtSecurityToken)validatedToken;
-                var userId = int.Parse(jwtToken.Claims.First(x => x.Type == ClaimTypes.NameIdentifier).Value);
-
-                var user = await dbContext.Users.FindAsync(userId);
-                if (user != null)
+                if (tokenValidationResult.IsValid)
                 {
-                    var role = await dbContext.Roles.FindAsync(user.RoleId);
-                    user.Role = role!;
+                    var jwtToken = (JwtSecurityToken)tokenValidationResult.SecurityToken;
+                    var userIdClaim = jwtToken.Claims.First(x => x.Type == "nameid").Value;
 
-                    context.Items["User"] = user;
+                    if (int.TryParse(userIdClaim, out int userId))
+                    {
+                        var user = await dbContext.Users
+                            .Include(u => u.Role)
+                            .FirstOrDefaultAsync(u => u.UserId == userId);
+
+                        if (user != null)
+                        {
+                            context.Items["User"] = user;
+                        }
+                    }
                 }
             }
-            catch
+            catch (Exception ex)
             {
-                // Do nothing if JWT validation fails
+                Console.WriteLine($"JWT validation failed: {ex.Message}");
             }
         }
     }

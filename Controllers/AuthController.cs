@@ -39,7 +39,6 @@ namespace VehicleManagementAPI.Controllers
 
             _logger.LogInformation($"User found: {user.Email}");
 
-            // Direct string comparison (no hashing)
             bool isPasswordValid = user.PasswordHash == request.Password;
             _logger.LogInformation($"Password verification result: {isPasswordValid}");
 

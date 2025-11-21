@@ -3043,11 +3043,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\VehicleManagementAPI.csproj",
+      "projectUniqueName": "E:\\BW\\Backend\\Vehicle_Management\\VehicleManagementAPI.csproj",
       "projectName": "VehicleManagementAPI",
-      "projectPath": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\VehicleManagementAPI.csproj",
+      "projectPath": "E:\\BW\\Backend\\Vehicle_Management\\VehicleManagementAPI.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\obj\\",
+      "outputPath": "E:\\BW\\Backend\\Vehicle_Management\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

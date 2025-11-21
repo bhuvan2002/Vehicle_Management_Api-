@@ -33,7 +33,6 @@ namespace VehicleManagementAPI.Controllers
                     Model = v.Model,
                     CurrentChargePercentage = v.CurrentChargePercentage,
                     MaxPayloadKg = v.MaxPayloadKg,
-                    ChargingStatus = v.ChargingStatus.ToString(),
                     AssignStatus = v.AssignStatus.ToString(),
                     AssignedToUserId = v.AssignedToUserId,
                     AssignedToUserName = v.AssignedToUser != null ?
@@ -65,7 +64,6 @@ namespace VehicleManagementAPI.Controllers
                 Model = vehicle.Model,
                 CurrentChargePercentage = vehicle.CurrentChargePercentage,
                 MaxPayloadKg = vehicle.MaxPayloadKg,
-                ChargingStatus = vehicle.ChargingStatus.ToString(),
                 AssignStatus = vehicle.AssignStatus.ToString(),
                 AssignedToUserId = vehicle.AssignedToUserId,
                 AssignedToUserName = vehicle.AssignedToUser != null ?
@@ -86,7 +84,6 @@ namespace VehicleManagementAPI.Controllers
                 Model = request.Model,
                 CurrentChargePercentage = request.CurrentChargePercentage,
                 MaxPayloadKg = request.MaxPayloadKg,
-                ChargingStatus = request.ChargingStatus,
                 AssignStatus = AssignStatus.Available
             };
 
@@ -101,7 +98,6 @@ namespace VehicleManagementAPI.Controllers
                 Model = vehicle.Model,
                 CurrentChargePercentage = vehicle.CurrentChargePercentage,
                 MaxPayloadKg = vehicle.MaxPayloadKg,
-                ChargingStatus = vehicle.ChargingStatus.ToString(),
                 AssignStatus = vehicle.AssignStatus.ToString()
             };
 
@@ -123,8 +119,11 @@ namespace VehicleManagementAPI.Controllers
             vehicle.Model = request.Model;
             vehicle.CurrentChargePercentage = request.CurrentChargePercentage;
             vehicle.MaxPayloadKg = request.MaxPayloadKg;
-            vehicle.ChargingStatus = request.ChargingStatus;
-            vehicle.AssignStatus = request.AssignStatus;
+
+            if (Enum.TryParse<AssignStatus>(request.AssignStatus, out var assignStatus))
+            {
+                vehicle.AssignStatus = assignStatus;
+            }
 
             await _context.SaveChangesAsync();
 
@@ -146,57 +145,6 @@ namespace VehicleManagementAPI.Controllers
 
             return NoContent();
         }
-
-        [HttpPost("{id}/assign")]
-        [Authorize(Roles = "admin")]
-        public async Task<IActionResult> AssignVehicle(int id, AssignVehicleRequest request)
-        {
-            var vehicle = await _context.Vehicles.FindAsync(id);
-            if (vehicle == null)
-            {
-                return NotFound("Vehicle not found");
-            }
-
-            var user = await _context.Users.FindAsync(request.UserId);
-            if (user == null)
-            {
-                return NotFound("User not found");
-            }
-
-            if (vehicle.AssignStatus == AssignStatus.Assigned)
-            {
-                return BadRequest("Vehicle is already assigned");
-            }
-
-            vehicle.AssignedToUserId = request.UserId;
-            vehicle.AssignStatus = AssignStatus.Assigned;
-
-            await _context.SaveChangesAsync();
-
-            return Ok(new { message = "Vehicle assigned successfully" });
-        }
-
-        [HttpPost("{id}/unassign")]
-        [Authorize(Roles = "admin")]
-        public async Task<IActionResult> UnassignVehicle(int id)
-        {
-            var vehicle = await _context.Vehicles.FindAsync(id);
-            if (vehicle == null)
-            {
-                return NotFound("Vehicle not found");
-            }
-
-            if (vehicle.AssignStatus != AssignStatus.Assigned)
-            {
-                return BadRequest("Vehicle is not assigned");
-            }
-
-            vehicle.AssignedToUserId = null;
-            vehicle.AssignStatus = AssignStatus.Available;
-
-            await _context.SaveChangesAsync();
-
-            return Ok(new { message = "Vehicle unassigned successfully" });
-        }
+        
     }
 }

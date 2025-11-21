@@ -201,6 +201,53 @@
     ]
   },
   {
+    "ContainingType": "VehicleManagementAPI.Controllers.UserVehiclesController",
+    "Method": "AssignVehicle",
+    "RelativePath": "api/users/{userId}/vehicles/{id}/assign",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "VehicleManagementAPI.DTOs.AssignVehicleRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VehicleManagementAPI.Controllers.UserVehiclesController",
+    "Method": "UnassignVehicle",
+    "RelativePath": "api/users/{userId}/vehicles/{id}/unassign",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "VehicleManagementAPI.Controllers.VehiclesController",
     "Method": "GetVehicles",
     "RelativePath": "api/vehicles",
@@ -298,43 +345,6 @@
     "Method": "DeleteVehicle",
     "RelativePath": "api/vehicles/{id}",
     "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "VehicleManagementAPI.Controllers.VehiclesController",
-    "Method": "AssignVehicle",
-    "RelativePath": "api/vehicles/{id}/assign",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "request",
-        "Type": "VehicleManagementAPI.DTOs.AssignVehicleRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "VehicleManagementAPI.Controllers.VehiclesController",
-    "Method": "UnassignVehicle",
-    "RelativePath": "api/vehicles/{id}/unassign",
-    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [

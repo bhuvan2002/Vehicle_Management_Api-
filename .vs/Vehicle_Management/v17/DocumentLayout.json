@@ -1,74 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\",
+  "WorkspaceRootPath": "E:\\BW\\Backend\\Vehicle_Management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\backend\\vehicle_management\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\controllers\\uservehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:controllers\\uservehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\dtos\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:dtos\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\backend\\vehicle_management\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\vehicle_management\\vehicle_management\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\backend\\vehicle_management\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\backend\\vehicle_management\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\backend\\vehicle_management\\dtos\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:dtos\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\backend\\vehicle_management\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\backend\\vehicle_management\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\backend\\vehicle_management\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\backend\\vehicle_management\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\backend\\vehicle_management\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\backend\\vehicle_management\\controllers\\uservehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:controllers\\uservehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\backend\\vehicle_management\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\backend\\vehicle_management\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\backend\\vehicle_management\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\backend\\vehicle_management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\backend\\vehicle_management\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|e:\\bw\\backend\\vehicle_management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3068FBC7-A448-44B2-AECC-9CC6D5256E7C}|VehicleManagementAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,53 +78,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "LoginRequest.cs",
-              "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\DTOs\\LoginRequest.cs",
+              "DocumentMoniker": "E:\\BW\\Backend\\Vehicle_Management\\DTOs\\LoginRequest.cs",
               "RelativeDocumentMoniker": "DTOs\\LoginRequest.cs",
-              "ToolTip": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\DTOs\\LoginRequest.cs",
+              "ToolTip": "E:\\BW\\Backend\\Vehicle_Management\\DTOs\\LoginRequest.cs",
               "RelativeToolTip": "DTOs\\LoginRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T20:47:48.004Z"
+              "WhenOpened": "2025-11-20T20:47:48.004Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "UserVehiclesController.cs",
-              "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Controllers\\UserVehiclesController.cs",
+              "DocumentMoniker": "E:\\BW\\Backend\\Vehicle_Management\\Controllers\\UserVehiclesController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserVehiclesController.cs",
-              "ToolTip": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Controllers\\UserVehiclesController.cs",
+              "ToolTip": "E:\\BW\\Backend\\Vehicle_Management\\Controllers\\UserVehiclesController.cs",
               "RelativeToolTip": "Controllers\\UserVehiclesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T20:12:26.766Z"
+              "WhenOpened": "2025-11-20T20:12:26.766Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Vehicle.cs",
-              "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Models\\Vehicle.cs",
+              "DocumentMoniker": "E:\\BW\\Backend\\Vehicle_Management\\Models\\Vehicle.cs",
               "RelativeDocumentMoniker": "Models\\Vehicle.cs",
-              "ToolTip": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Models\\Vehicle.cs",
+              "ToolTip": "E:\\BW\\Backend\\Vehicle_Management\\Models\\Vehicle.cs",
               "RelativeToolTip": "Models\\Vehicle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T20:07:13.583Z"
+              "WhenOpened": "2025-11-20T20:07:13.583Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "UserProfileController.cs",
-              "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Controllers\\UserProfileController.cs",
+              "DocumentMoniker": "E:\\BW\\Backend\\Vehicle_Management\\Controllers\\UserProfileController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserProfileController.cs",
-              "ToolTip": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Controllers\\UserProfileController.cs",
+              "ToolTip": "E:\\BW\\Backend\\Vehicle_Management\\Controllers\\UserProfileController.cs",
               "RelativeToolTip": "Controllers\\UserProfileController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T20:12:01.444Z",
               "EditorCaption": ""
@@ -133,158 +136,170 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\BW\\Backend\\Vehicle_Management\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\BW\\Backend\\Vehicle_Management\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T20:08:02.788Z"
+              "WhenOpened": "2025-11-20T20:08:02.788Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "VehiclesController.cs",
-              "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Controllers\\VehiclesController.cs",
+              "DocumentMoniker": "E:\\BW\\Backend\\Vehicle_Management\\Controllers\\VehiclesController.cs",
               "RelativeDocumentMoniker": "Controllers\\VehiclesController.cs",
-              "ToolTip": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Controllers\\VehiclesController.cs",
+              "ToolTip": "E:\\BW\\Backend\\Vehicle_Management\\Controllers\\VehiclesController.cs",
               "RelativeToolTip": "Controllers\\VehiclesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAcwJIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T20:11:34.569Z"
+              "WhenOpened": "2025-11-20T20:11:34.569Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "UsersController.cs",
-              "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Controllers\\UsersController.cs",
+              "DocumentMoniker": "E:\\BW\\Backend\\Vehicle_Management\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Controllers\\UsersController.cs",
+              "ToolTip": "E:\\BW\\Backend\\Vehicle_Management\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAcwJgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T20:11:07.272Z"
+              "WhenOpened": "2025-11-20T20:11:07.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\BW\\Backend\\Vehicle_Management\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "E:\\BW\\Backend\\Vehicle_Management\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T20:10:45.592Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwEEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T20:10:45.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "JwtMiddleware.cs",
-              "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Middleware\\JwtMiddleware.cs",
+              "DocumentMoniker": "E:\\BW\\Backend\\Vehicle_Management\\Middleware\\JwtMiddleware.cs",
               "RelativeDocumentMoniker": "Middleware\\JwtMiddleware.cs",
-              "ToolTip": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Middleware\\JwtMiddleware.cs",
+              "ToolTip": "E:\\BW\\Backend\\Vehicle_Management\\Middleware\\JwtMiddleware.cs",
               "RelativeToolTip": "Middleware\\JwtMiddleware.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAcwBoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T20:10:16.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginResponse.cs",
-              "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\DTOs\\LoginResponse.cs",
-              "RelativeDocumentMoniker": "DTOs\\LoginResponse.cs",
-              "ToolTip": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\DTOs\\LoginResponse.cs",
-              "RelativeToolTip": "DTOs\\LoginResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T20:08:47.105Z"
+              "WhenOpened": "2025-11-20T20:10:16.316Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAADEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-20T20:20:45.626Z"
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "E:\\BW\\Backend\\Vehicle_Management\\DTOs\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginResponse.cs",
+              "ToolTip": "E:\\BW\\Backend\\Vehicle_Management\\DTOs\\LoginResponse.cs",
+              "RelativeToolTip": "DTOs\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T20:08:47.105Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\BW\\Backend\\Vehicle_Management\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\BW\\Backend\\Vehicle_Management\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAADEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-20T20:20:45.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Program.cs",
+              "DocumentMoniker": "E:\\BW\\Backend\\Vehicle_Management\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Program.cs",
+              "ToolTip": "E:\\BW\\Backend\\Vehicle_Management\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAmwIQAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAmwG4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T20:14:53.319Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "JwtService.cs",
-              "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Services\\JwtService.cs",
+              "DocumentMoniker": "E:\\BW\\Backend\\Vehicle_Management\\Services\\JwtService.cs",
               "RelativeDocumentMoniker": "Services\\JwtService.cs",
-              "ToolTip": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Services\\JwtService.cs",
+              "ToolTip": "E:\\BW\\Backend\\Vehicle_Management\\Services\\JwtService.cs",
               "RelativeToolTip": "Services\\JwtService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T20:09:57.195Z"
+              "WhenOpened": "2025-11-20T20:09:57.195Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 4,
               "Title": "VehicleDto.cs",
-              "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\DTOs\\VehicleDto.cs",
+              "DocumentMoniker": "E:\\BW\\Backend\\Vehicle_Management\\DTOs\\VehicleDto.cs",
               "RelativeDocumentMoniker": "DTOs\\VehicleDto.cs",
-              "ToolTip": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\DTOs\\VehicleDto.cs",
+              "ToolTip": "E:\\BW\\Backend\\Vehicle_Management\\DTOs\\VehicleDto.cs",
               "RelativeToolTip": "DTOs\\VehicleDto.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T20:09:31.069Z"
+              "WhenOpened": "2025-11-20T20:09:31.069Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
               "Title": "UserDto.cs",
-              "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\DTOs\\UserDto.cs",
+              "DocumentMoniker": "E:\\BW\\Backend\\Vehicle_Management\\DTOs\\UserDto.cs",
               "RelativeDocumentMoniker": "DTOs\\UserDto.cs",
-              "ToolTip": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\DTOs\\UserDto.cs",
+              "ToolTip": "E:\\BW\\Backend\\Vehicle_Management\\DTOs\\UserDto.cs",
               "RelativeToolTip": "DTOs\\UserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T20:09:13.368Z"
+              "WhenOpened": "2025-11-20T20:09:13.368Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
               "Title": "User.cs",
-              "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Models\\User.cs",
+              "DocumentMoniker": "E:\\BW\\Backend\\Vehicle_Management\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Models\\User.cs",
+              "ToolTip": "E:\\BW\\Backend\\Vehicle_Management\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T20:06:38.46Z"
+              "WhenOpened": "2025-11-20T20:06:38.46Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 2,
               "Title": "Role.cs",
-              "DocumentMoniker": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Models\\Role.cs",
+              "DocumentMoniker": "E:\\BW\\Backend\\Vehicle_Management\\Models\\Role.cs",
               "RelativeDocumentMoniker": "Models\\Role.cs",
-              "ToolTip": "E:\\BW\\Vehicle_Management\\Vehicle_Management\\Models\\Role.cs",
+              "ToolTip": "E:\\BW\\Backend\\Vehicle_Management\\Models\\Role.cs",
               "RelativeToolTip": "Models\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T20:06:04.07Z"
+              "WhenOpened": "2025-11-20T20:06:04.07Z",
+              "EditorCaption": ""
             }
           ]
         }

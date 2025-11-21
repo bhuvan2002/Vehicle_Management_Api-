@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using VehicleManagementAPI.Data;
 using VehicleManagementAPI.DTOs;
+using VehicleManagementAPI.Models;
 
 namespace VehicleManagementAPI.Controllers
 {
@@ -37,12 +38,63 @@ namespace VehicleManagementAPI.Controllers
                     Model = v.Model,
                     CurrentChargePercentage = v.CurrentChargePercentage,
                     MaxPayloadKg = v.MaxPayloadKg,
-                    ChargingStatus = v.ChargingStatus.ToString(),
                     AssignStatus = v.AssignStatus.ToString()
                 })
                 .ToListAsync();
 
             return Ok(vehicles);
+        }
+
+        [HttpPost("{id}/assign")]
+        [Authorize(Roles = "admin")]
+        public async Task<IActionResult> AssignVehicle(int id, AssignVehicleRequest request)
+        {
+            var vehicle = await _context.Vehicles.FindAsync(id);
+            if (vehicle == null)
+            {
+                return NotFound("Vehicle not found");
+            }
+
+            var user = await _context.Users.FindAsync(request.UserId);
+            if (user == null)
+            {
+                return NotFound("User not found");
+            }
+
+            if (vehicle.AssignStatus == AssignStatus.Assigned)
+            {
+                return BadRequest("Vehicle is already assigned");
+            }
+
+            vehicle.AssignedToUserId = request.UserId;
+            vehicle.AssignStatus = AssignStatus.Assigned;
+
+            await _context.SaveChangesAsync();
+
+            return Ok(new { message = "Vehicle assigned successfully" });
+        }
+
+        [HttpPost("{id}/unassign")]
+        [Authorize(Roles = "admin")]
+        public async Task<IActionResult> UnassignVehicle(int id)
+        {
+            var vehicle = await _context.Vehicles.FindAsync(id);
+            if (vehicle == null)
+            {
+                return NotFound("Vehicle not found");
+            }
+
+            if (vehicle.AssignStatus != AssignStatus.Assigned)
+            {
+                return BadRequest("Vehicle is not assigned");
+            }
+
+            vehicle.AssignedToUserId = null;
+            vehicle.AssignStatus = AssignStatus.Available;
+
+            await _context.SaveChangesAsync();
+
+            return Ok(new { message = "Vehicle unassigned successfully" });
         }
     }
 }
